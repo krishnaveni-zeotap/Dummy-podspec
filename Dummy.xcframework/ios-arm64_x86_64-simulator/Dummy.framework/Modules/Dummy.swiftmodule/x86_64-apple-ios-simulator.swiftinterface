@@ -5,8 +5,8 @@
 import Foundation
 import Swift
 import _Concurrency
-@_hasMissingDesignatedInitializers public class Dummy {
+@_hasMissingDesignatedInitializers public class DummyPrint {
   public func printDummy(str: Swift.String)
-  public static func getInstance() -> Dummy.Dummy
+  public static func getInstance() -> Dummy.DummyPrint
   @objc deinit
 }
